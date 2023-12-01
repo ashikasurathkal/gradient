@@ -1,0 +1,87 @@
+div.a{
+   background-image: linear-gradient(blue,yellow,red,green,yellow,orange,lightgreen,white,pink);
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    
+}
+div.b{
+    width: 30%;
+    height: 30vh;
+    background-image: radial-gradient(rgb(46, 214, 24),yellow,darkgreen ,black,blue,red,orange);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+div.c{
+    width: 30%;
+    height: 30vh;
+    background-image: conic-gradient(rgb(228, 140, 25),rgb(52, 94, 235),darkgreen,yellow,blue,red,orange,aqua);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.d{
+    position: absolute;
+   top: 20px;
+   left: 10px;
+   padding: 10px;
+   margin: 25%;
+   border: 3px solid black;
+   background: rgb(180, 1, 10);
+   transition: width 50s, height 50s;
+   border-radius: 4px;
+
+}
+
+.e{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    padding: 10px;
+    margin: 25%;
+    border: 3px solid black;
+    background: rgb(207, 230, 8);
+    transition: width 60s, height 50s;
+    border-radius: 4px;
+}
+
+.f{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    padding: 10px;
+    margin: 25%;
+    border: 3px solid black;
+    background: rgb(30, 8, 228);
+    transition: width 70s, height 50s;
+    border-radius: 4px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button.d:hover{
+    width: 100px;
+    height: 50px;
+    
+}
+button.e:hover{
+    width: 100px;
+    height: 50px;
+
+}
+button.f:hover{
+    width: 100px;
+    height: 50px;
+
+   
+}
